@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://tutelage.com/sitemap.xml
+
+# Disallow admin and API routes
+Disallow: /admin/
+Disallow: /api/
+
+# Allow important pages
+Allow: /computer-science/
+Allow: /informatics-practices/
+Allow: /mcqs/
+Allow: /tuition/
+Allow: /about/
+Allow: /contact/
